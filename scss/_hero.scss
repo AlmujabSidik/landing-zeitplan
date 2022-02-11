@@ -1,0 +1,17 @@
+.hero-content {
+    h1 {
+        font-family: $font-primary;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 60px;
+        color: $color-dark;
+    }
+    p {
+        font-family: $font-secondary;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 34px;
+        color: $color-text;
+        width: 90%;
+    }
+}
