@@ -1,5 +1,10 @@
 .keunggulan {
+    width: 100%;
+    height: auto;
     margin-top: 100px;
+    @include mobile {
+        margin: 40px 0px;
+    }
     .content_keunggulan {
         h1 {
             font-family: $font-primary;
@@ -18,6 +23,9 @@
             color: rgba(14, 20, 74, 0.6);
         }
         .populer-keunggulan {
+            @include mobile {
+                margin: 40px 0px;
+            }
             .total_download {
                 h4 {
                     font-family: $inter;

@@ -1,0 +1,63 @@
+.fitur {
+    width: 100%;
+    height: 580px;
+    margin-top: 100px;
+    @include mobile {
+        height: auto;
+        width: 100%;
+        margin: 50px 0px;
+    }
+    h1 {
+        font-family: $font-primary;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 38px;
+        line-height: 52px;
+        color: $color-dark;
+    }
+    p {
+        font-family: $font-secondary;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 32px;
+        color: rgba(14, 20, 74, 0.6);
+    }
+    .fitur_card {
+        margin-top: 50px;
+        .card_fitur {
+            @include mobile {
+                margin-top: 10px;
+            }
+            margin-top: 20px;
+            @include mobile {
+                margin-top: 0px;
+            }
+            .card-1 {
+                width: 300px;
+                margin-left: 10px;
+                background: rgba(254, 94, 68, 0.05);
+                border-radius: 6px;
+                padding: 10px;
+                &:hover {
+                    box-shadow: 0px 20px 30px rgba(255, 86, 58, 0.15);
+                }
+                @include mobile {
+                    width: 100%;
+                    margin-top: 30px;
+                    margin-left: 0px;
+                    padding: 25px;
+                }
+                h5 {
+                    margin-top: 10px;
+                    font-family: $font-primary;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: $color-dark;
+                }
+            }
+        }
+    }
+}

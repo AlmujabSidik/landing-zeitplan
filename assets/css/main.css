@@ -31,17 +31,38 @@
   background: #fe5d44dc;
 }
 
-.hero-content {
+.hero {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 244, 242, 0.4)), to(#FFF0EE));
+  background: linear-gradient(180deg, rgba(255, 244, 242, 0.4) 0%, #FFF0EE 100%);
+  width: 100%;
+  height: 800px;
+  padding-top: 30px;
+}
+
+@media (max-width: 600px) {
+  .hero {
+    width: 100%;
+    height: 980px;
+  }
+}
+
+.hero .hero-content {
   margin-top: 80px;
 }
 
 @media (max-width: 600px) {
-  .hero-content {
+  .hero .hero-content {
     margin-top: 30px;
+    width: 100%;
+    height: 780px;
+  }
+  .hero .hero-content img {
+    width: 100%;
+    margin-top: 40px;
   }
 }
 
-.hero-content h1 {
+.hero .hero-content h1 {
   font-family: "Patua One", cursive;
   font-weight: normal;
   font-size: 48px;
@@ -50,13 +71,13 @@
 }
 
 @media (max-width: 600px) {
-  .hero-content h1 {
+  .hero .hero-content h1 {
     font-size: 38px;
-    line-height: 50px;
+    line-height: 52px;
   }
 }
 
-.hero-content p {
+.hero .hero-content p {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: normal;
   font-size: 18px;
@@ -65,7 +86,7 @@
   width: 90%;
 }
 
-.hero-content .btn-hero_content .btn-learn_more {
+.hero .hero-content .btn-hero_content .btn-learn_more {
   width: 177px;
   height: 50px;
   background: #FE5E44;
@@ -77,13 +98,13 @@
   line-height: 20px;
 }
 
-.hero-content .btn-hero_content .btn-learn_more:hover {
+.hero .hero-content .btn-hero_content .btn-learn_more:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
   background: #fe5d44dc;
 }
 
-.hero-content .btn-hero_content .btn-play_demo {
+.hero .hero-content .btn-hero_content .btn-play_demo {
   margin-left: 15px;
   width: 177px;
   height: 50px;
@@ -96,7 +117,15 @@
 }
 
 .keunggulan {
+  width: 100%;
+  height: auto;
   margin-top: 100px;
+}
+
+@media (max-width: 600px) {
+  .keunggulan {
+    margin: 40px 0px;
+  }
 }
 
 .keunggulan .content_keunggulan h1 {
@@ -115,6 +144,12 @@
   font-size: 18px;
   line-height: 32px;
   color: rgba(14, 20, 74, 0.6);
+}
+
+@media (max-width: 600px) {
+  .keunggulan .content_keunggulan .populer-keunggulan {
+    margin: 40px 0px;
+  }
 }
 
 .keunggulan .content_keunggulan .populer-keunggulan .total_download h4 {
@@ -186,16 +221,92 @@
   color: #000;
 }
 
+.fitur {
+  width: 100%;
+  height: 580px;
+  margin-top: 100px;
+}
+
+@media (max-width: 600px) {
+  .fitur {
+    height: auto;
+    width: 100%;
+    margin: 50px 0px;
+  }
+}
+
+.fitur h1 {
+  font-family: "Patua One", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 52px;
+  color: #0E144A;
+}
+
+.fitur p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(14, 20, 74, 0.6);
+}
+
+.fitur .fitur_card {
+  margin-top: 50px;
+}
+
+.fitur .fitur_card .card_fitur {
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .fitur .fitur_card .card_fitur {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .fitur .fitur_card .card_fitur {
+    margin-top: 0px;
+  }
+}
+
+.fitur .fitur_card .card_fitur .card-1 {
+  width: 300px;
+  margin-left: 10px;
+  background: rgba(254, 94, 68, 0.05);
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.fitur .fitur_card .card_fitur .card-1:hover {
+  -webkit-box-shadow: 0px 20px 30px rgba(255, 86, 58, 0.15);
+          box-shadow: 0px 20px 30px rgba(255, 86, 58, 0.15);
+}
+
+@media (max-width: 600px) {
+  .fitur .fitur_card .card_fitur .card-1 {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0px;
+    padding: 25px;
+  }
+}
+
+.fitur .fitur_card .card_fitur .card-1 h5 {
+  margin-top: 10px;
+  font-family: "Patua One", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #0E144A;
+}
+
 body {
   font-size: 16px;
   font-family: "Source Sans Pro", sans-serif;
-}
-
-.hero {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 244, 242, 0.4)), to(#FFF0EE));
-  background: linear-gradient(180deg, rgba(255, 244, 242, 0.4) 0%, #FFF0EE 100%);
-  width: 100%;
-  height: 800px;
-  padding-top: 30px;
 }
 /*# sourceMappingURL=main.css.map */
