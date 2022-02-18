@@ -307,7 +307,7 @@
 
 .price {
   width: 100%;
-  height: 1340px;
+  height: 1120px;
   background: rgba(254, 94, 68, 0.05);
 }
 
@@ -426,6 +426,147 @@
   background: #fe5d44dc;
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+.testimonial {
+  width: 100%;
+  height: 720px;
+  background: rgba(254, 94, 68, 0.1);
+  padding: 100px 0px;
+}
+
+@media (max-width: 600px) {
+  .testimonial {
+    height: 780px;
+  }
+}
+
+.testimonial .heading-testimonial h1 {
+  font-family: "Patua One", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 52px;
+  color: #0E144A;
+}
+
+.testimonial .heading-testimonial p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(14, 20, 74, 0.6);
+}
+
+.testimonial .content-testimonial .splide {
+  margin-top: 30px;
+}
+
+.testimonial .content-testimonial .splide .my-slider-progress .my-slider-progress-bar {
+  background: greenyellow;
+  -webkit-transition: width 400ms ease;
+  transition: width 400ms ease;
+}
+
+.testimonial .content-testimonial .splide .splide__slide {
+  width: 369px;
+  height: 280px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 15px 30px rgba(12, 14, 43, 0.05);
+          box-shadow: 0px 15px 30px rgba(12, 14, 43, 0.05);
+  border-radius: 6px;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.testimonial .content-testimonial .testimonial_card .star {
+  color: #FFC93F;
+}
+
+.testimonial .content-testimonial .testimonial_card .card_content .detail_card h1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #0E144A;
+}
+
+.testimonial .content-testimonial .testimonial_card .card_content .detail_card p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #0e144a99;
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  padding: 30px 0px;
+}
+
+footer .site-1 {
+  margin-top: 30px;
+}
+
+footer .site-1 p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #0e144a99;
+}
+
+footer .site-map {
+  margin-top: 30px;
+}
+
+footer .site-map p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #0e144a99;
+}
+
+footer .site-map .nav-item .nav-link {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  color: #030511c4;
+}
+
+footer .site-social {
+  margin-top: -40px;
+}
+
+@media (max-width: 600px) {
+  footer .site-social {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}
+
+footer .site-social p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #0e144a99;
+}
+
+footer .site-social .social-media .fa-brands {
+  color: #0e144a99;
+  margin-right: 10px;
+  font-size: 20px;
 }
 
 body {
